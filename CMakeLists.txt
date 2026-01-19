@@ -1,5 +1,5 @@
 project(mongo)
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.20)
 option(CodeCoverage "CodeCoverage" OFF)
 set(CMAKE_CXX_FLAGS "-std=c++11 -Wno-deprecated-register -O3 ${CMAKE_CXX_FLAGS}")
 set(CMAKE_CXX_FLAGS_DEBUG "-std=c++11 -Wno-deprecated-register -O0 -g ${CMAKE_CXX_FLAGS_DEBUG}")
